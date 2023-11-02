@@ -1,8 +1,6 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
-
 import { getServerSession } from "next-auth";
-
 import { authOption } from "../api/auth/[...nextauth]/route";
 
 const ServerPage = async () => {

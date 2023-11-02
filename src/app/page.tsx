@@ -1,5 +1,5 @@
 import Provider from '@/components/Provider'
-import SignInButton from '@/components/SignInButton'
+import SignInGoogle from '@/components/SignInGoogle'
 import Link from 'next/link'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
           <Link className='bg-sky-600 mx-10 px-3 py-2 rounded-lg' href="/server">Server</Link>
         </div>
         <div>
-          <SignInButton />
+          <SignInGoogle />
         </div>
       </div>
     </>
